@@ -62,6 +62,23 @@ h1 {
 
 /* TOP NAVIGATION */
 
+#navbarContent {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
 .navbar-collapse {
     flex-grow: 0;
 }
@@ -108,7 +125,7 @@ h1 {
     width: 100%;
     max-width: 1440px;
     margin: auto;
-    padding: 40px 4.15% 64px 4.15%;
+    padding: 40px 60px 64px 60px;
 }
 
 #mainPageNews h1 {
@@ -125,11 +142,5 @@ h1 {
 
 .carousel-item img {
     aspect-ratio: 2 / 1;
-}
-
-#newsGrid {
-    width: 100%;
-    height: 980px;
-    background-color: blueviolet;
-    margin-bottom: 40px;
+    object-fit: cover;
 }
